@@ -1,0 +1,157 @@
+IDENTIFICATEUR DIVISION.
+PROGRAM-ID. Hellow.
+DATA DIVISION.
+
+# LA PARTIE DECLARATION !
+WORKING-STORAGE SECTION.
+Tab LINE (-6), SIZE 4 STRING.
+Aa INTEGER.
+CONST Vu INTEGER.
+CONST Ss INTEGER.
+CONST Ss INTEGER.
+Ff INTEGER.
+A INTEGER.
+B FLOAT.
+H CHAR.
+Aa CHAR.
+Bb | Cc INTEGER.
+Dc STRING.
+G STRING.
+I | N INTEGER.
+
+
+L CHAR.
+M CHAR.
+Z FLOAT.
+X INTEGER.
+E INTEGER.
+D INTEGER.
+Z FLOAT.
+S STRING.
+
+
+#zezte hkzehf
+hoiezhz
+ieohaa
+hk
+
+dg
+gd
+g
+kjh!
+
+Tab LINE 10, SIZE 4 INTEGER.
+Tab LINE 2, SIZE 4 INTEGER.
+D FLOAT.
+Tab LINE (-2), SIZE 4 INTEGER.
+CONST F = 'f'.
+CONST F = 'd'.
+CONST S= (-2) | Dd=6 | K="sarah".
+
+
+
+# LA PARTIE PROGRAMME !
+PROCEDURE DIVISION.
+COMPUTE A=3276.
+COMPUTE F='t'.
+COMPUTE Dd='f'.
+COMPUTE S="sa" + "rah".
+ACCEPT ("$":@ B ).    
+COMPUTE A=4/0.
+ACCEPT ("#":@ A ).
+
+(6 .OR. 5)
+(6 .OR. 5)
+('e' .G. "sa")
+
+COMPUTE A=5.
+COMPUTE B=4.
+
+COMPUTE B=(5+G-8,6)/ (5,3-2).
+COMPUTE D = 3 * 4 + 1* 3 - 6.
+
+
+(6 .OR. 5)
+(NOT 2)
+(5 .GE. 5)
+('e' .G. "sa")
+(4 + 6 .L. 8)
+(3 + 4 * 1 - 9 .GE. 4)
+(3-2 + 5 - 3 .LE. 5 )
+
+DISPLAY ("c est un entire $": D).
+DISPLAY ("c est un reel %":Z ).
+DISPLAY ("c est une chaine de caractères #":F).
+DISPLAY ("c est un caractère &":H).
+
+(5 .GE. 5)
+(Aa .GE. Bb)
+
+
+# iif !
+IF (Aa.GE.Bb):
+ COMPUTE Cc=E+2,6.
+
+ ELSE:
+ DISPLAY ("c est un reel %":Z ).
+ COMPUTE Cc=E+2,6.
+END
+
+# MOV !
+MOVE I TO N
+ ACCEPT ("%": @G).
+END
+
+# MOV !
+MOVE J TO M
+ ACCEPT ("%": @V).
+END
+
+
+COMPUTE Kk=5.
+COMPUTE Tab=4.
+ 
+
+# iif imbreque !  
+IF (Aa.GE.Bb):
+   IF (Aa.GE.Bb):
+     COMPUTE CK=E+2,6.
+   ELSE:
+   END
+  COMPUTE Cc=E+2,6.
+ ACCEPT ("%": @V).
+ELSE:
+ DISPLAY ("la valeur de A est $": A).
+ DISPLAY ("la valeur de B est $": B).
+ COMPUTE Cv=E+2,6.
+END
+
+
+# boucle imbreque !
+MOVE 1 TO 5
+     ACCEPT("&":@A).
+     IF (Aa.GE.Bb):
+            COMPUTE C=E+B.
+     ELSE:
+        ACCEPT("&":@A).
+       IF (Aa.GE.Bb):
+            COMPUTE C=E+B.
+      END  
+            DISPLAY("la valeur de A est $":A).
+     END
+END
+COMPUTE A = (X+(-7)+(B-(+5))+(4*5))+3.
+COMPUTE A=(X+(-7)+(B-(+5))+(4*5)) / (((5,3-2)+1)) + (4+8) - ((56+4)*(34/5)).
+COMPUTE Z = 5,7 / 0.
+
+COMPUTE Ss='d'.
+COMPUTE Ss='d'.
+
+COMPUTE F='g'.
+
+COMPUTE Aa = "serz".
+
+COMPUTE Sarah="ferkous".
+COMPUTE Z = (5,7 / 0).
+
+STOP RUN
